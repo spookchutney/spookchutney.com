@@ -1,13 +1,16 @@
 ---
 layout: default
+title: spookchutney
 pagination: 
   enabled: true
 ---
 
+<h1>spookchutney</h1>
+
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
 <h1><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
-<span class="date">{{ post.date | date:"%m/%d/%Y" }}</span>
+<span class="date">{{ post.date | date:"%m%d%Y" }}</span>
 <div class="content">
   {{ post.content }}
 </div>
