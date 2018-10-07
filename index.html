@@ -5,19 +5,19 @@ pagination:
   enabled: true
 ---
 
-<h1>spookchutney</h1>
+<h1>❡spook·chutney</h1>
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
 <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-<span class="date">{{ post.date | date:"%s%m%d%Y" }}</span>
+<span class="date">{{ post.date | date:"%s%Y%m%d" }}</span>
 <div class="content">
   {{ post.content }}
 </div>
 {% endfor %}
 
 <!-- pagination-->
-{% if paginator.total_posts >= 10 %}
+{% if paginator.total_pages > 1 %}
 <hr />
 <div class="pagination">
   {% if paginator.previous_page %}
