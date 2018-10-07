@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700|Noto+Serif:400,400i,700&subset=greek,greek-ext,latin-ext');
+html { font-family: 'Noto Sans', sans-serif; }
+body { margin: 84px auto; width: 70%; max-width: 800px; }
+a { text-decoration: none; color: #e42121; }
+a:hover { text-decoration: underline; }
+p { font-family: 'Noto Serif', serif; line-height: 1.4em; }
+h1 { font-size: 28pt; font-weight: bold; }
+h2 { font-size: 16pt; font-weight: bold; }
+h3 { font-family: serif; }
+.date { font-family: 'Helvetica', sans-serif; }
+.figure { float: left; width: 100%; }
+.figure .caption { font-size: 11pt; color: #8e8e8e; text-indent: 0; padding-bottom: 11px }
+.bib { font-family: serif; padding-left: 2em; text-indent: -2em; }
+iframe { max-width: 100%; }
+@media only screen and (max-width: 450px) {}
