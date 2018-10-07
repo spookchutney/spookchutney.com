@@ -9,8 +9,8 @@ pagination:
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-<h1><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
-<span class="date">{{ post.date | date:"%m%d%Y" }}</span>
+<h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+<span class="date">{{ post.date | date:"%s%m%d%Y" }}</span>
 <div class="content">
   {{ post.content }}
 </div>
