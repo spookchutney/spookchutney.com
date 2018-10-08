@@ -13,7 +13,6 @@ h3 { font-family: serif; }
 .bib { font-family: serif; padding-left: 2em; text-indent: -2em; }
 iframe { max-width: 100%; }
 img { max-width: 100%; }
-@media only screen and (max-width: 450px) {}
 .PageNavigation { font-size: 28pt; width: auto; overflow: hidden;}
 .PageNavigation a { display: block; float: left; margin: auto auto; }
 .PageNavigation a:hover { text-decoration: none; }
@@ -22,3 +21,10 @@ img { max-width: 100%; }
 .PageNavigation .prev { float: left; }
 .PageNavigation .center { margin: 0 auto; font-size: 34pt; }
 .PageNavigation .next { float: right; }
+@media only screen and (max-width: 450px) {
+    body { margin: auto auto; padding:0px;}
+    h1 { font-size: 22pt;}
+    h2 { font-size: 14pt;}
+    p { font-size: 12pt;}
+    .date {float: none;}
+}
