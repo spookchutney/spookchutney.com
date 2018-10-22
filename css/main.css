@@ -5,7 +5,7 @@ a { text-decoration: none; color: #e42121; }
 a:hover { text-decoration: underline; }
 p { font-family: 'Noto Serif', serif; line-height: 1.4em; }
 h1 { font-size: 28pt; font-weight: bold; }
-h2 { font-size: 16pt; font-weight: bold; }
+h2 { font-size: 16px; font-weight: bold; }
 h3 { font-family: serif; }
 .date { font-family: 'Helvetica', sans-serif; }
 .figure { float: left; width: 100%; }
