@@ -13,13 +13,13 @@ h3 { font-family: serif; }
 .bib { font-family: serif; padding-left: 2em; text-indent: -2em; }
 iframe { max-width: 100%; }
 img { max-width: 100%; }
-.PageNavigation { font-size: 28pt; width: auto; overflow: hidden;}
+.PageNavigation { font-size: 15pt; width: auto; overflow: hidden;}
 .PageNavigation a { display: block; float: left; margin: auto auto; }
 .PageNavigation a:hover { text-decoration: none; }
 .PageNavigation ul { list-style: none; display: flex; margin: 10% 0; padding: 0; }
 .PageNavigation li { display: inline; }
 .PageNavigation .prev { float: left; }
-.PageNavigation .center { margin: 0 auto; font-size: 34pt; }
+.PageNavigation .center { margin: 0 auto; font-size: 15pt; }
 .PageNavigation .next { float: right; }
 @media only screen and (max-width: 450px) {
     body { margin: auto auto; padding:0px;}
