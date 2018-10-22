@@ -16,12 +16,12 @@ github-pages:
 	git reset HEAD
 	bundle exec jekyll build
 	rm -rf $(GH_SOURCES)
-	echo "spookchutney.com" > CNAME
+	git checkout master CNAME _config.yml
 	cp -r _site/* ./
 	rm -rf _site
 	git add -A
 	git commit -m "Generate gh-pages site for `git log master -1 --pretty=format:%h`" && \
-	git push -f origin gh-pages; git checkout master
+	git push origin gh-pages; git checkout master
 
 # to create an orphan gh-pages branch:
 #    cd repo
